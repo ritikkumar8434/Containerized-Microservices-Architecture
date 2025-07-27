@@ -12,7 +12,13 @@ Each component runs in its own container, and services communicate over a shared
 ---
 
 ## 🗂️ Project Structure 
- . ├── user-service/ # Handles user registration │ ├── app.py │ ├── Dockerfile │ └── requirements.txt ├── data-service/ # Fetches user data with Redis caching │ ├── app.py │ ├── Dockerfile │ └── requirements.txt ├── docker-compose.yml # Orchestrates all services ├── init.sql # Initializes the PostgreSQL database └── README.md 
+ . ├── user-service/ # Handles user registration │ 
+   ├── app.py │ ├── Dockerfile │ └── requirements.txt 
+   ├── data-service/ # Fetches user data with Redis caching │ 
+   ├── app.py │ ├── Dockerfile │ └── requirements.txt 
+   ├── docker-compose.yml # Orchestrates all services 
+   ├── init.sql # Initializes the PostgreSQL database 
+   └── README.md 
 ---
 
 ## 🚀 Getting Started
