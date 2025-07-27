@@ -12,22 +12,6 @@ Each component runs in its own container, and services communicate over a shared
 ---
 
 ## 📦 Project Structure
-Markdown
-
-# 🐳 Containerized Microservices Architecture with Flask, Docker Compose, PostgreSQL, and Redis
-
-This project demonstrates a microservices-based backend architecture using:
-
-- 🔹 **Flask** for REST API development
-- 🟠 **PostgreSQL** for persistent data storage
-- 🔵 **Redis** for in-memory caching
-- 🐳 **Docker Compose** for container orchestration
-
-Each component runs in its own container, and services communicate over a shared Docker network. [cite_start]This project was developed by Ritik Kumar Sahu.
-
----
-
-## 📦 Project Structure
 
 .
 ├── user-service/           # Handles user registration
